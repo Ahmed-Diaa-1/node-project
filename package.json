@@ -4,6 +4,7 @@
   "description": "This is the final node project",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

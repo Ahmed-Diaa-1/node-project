@@ -16,9 +16,9 @@ Router.get("/", getAllProducts);
 //=================Get Product By Id===============
 Router.get("/:id", getProductById);
 //=================Get Product By Id===============
-Router.get("/:category", getProductsByCategory);
+Router.get("/", getProductsByCategory);
 //=================Get Product By Id===============
-Router.get("/:brand", getProductByBrand);
+Router.get("/", getProductByBrand);
 //=================Add Product=====================
 Router.post("/", addProduct);
 //=================Update Product======================

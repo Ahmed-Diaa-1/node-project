@@ -1,6 +1,6 @@
 // my playground
 function getProducts() {
-  return fetch("/products")
+  return fetch("/node-project/products")
     .then((res) => res.json())
     .then((data) => data.products)
     .catch((err) => {

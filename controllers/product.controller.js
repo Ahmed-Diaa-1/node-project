@@ -619,15 +619,6 @@ const updateProduct = (req, res) => {
   res.json({
     product: products[index],
   });
-  // if(!index){
-  //     return res.status(404).send('No Product Found')
-  //     }else{
-  //         products[index].product=product
-  //         return res.json({
-  //             message:'Product Updated Successfully',
-  //             updated_product:{...products[index]},
-  //             })
-  //             }
 };
 const deleteProduct = () => {
   const { id } = req.params;
