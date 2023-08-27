@@ -1,0 +1,27 @@
+{
+  "name": "final-node-project",
+  "version": "1.0.0",
+  "description": "This is the final node project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Diaa-1/node-project.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Ahmed Diaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-Diaa-1/node-project/issues"
+  },
+  "homepage": "https://github.com/Ahmed-Diaa-1/node-project#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
